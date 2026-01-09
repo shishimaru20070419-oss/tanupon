@@ -1,10 +1,9 @@
-[index.html](https://github.com/user-attachments/files/24523876/index.html)
 <!doctype html>
-<html lang="ja">
+<html lang="ja-JP">
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/jpeg" href="/tanupon/profile.jpg" />
+  <link rel="icon" type="image/jpeg" href="/profile.jpg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="たぬぽん (Tanupon) の公式ホームページ。YouTubeやX(Twitter)のリンク、プロフィール情報を掲載。ゲーム実況、配信活動などの最新情報をチェック！" />
@@ -16,7 +15,7 @@
   <meta property="og:description" content="たぬぽんの公式サイトへようこそ！YouTube動画や最新の活動情報をまとめています。" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://tanupon-official.com/" /> <!-- Placeholder URL -->
-  <meta property="og:image" content="/tanupon/profile.jpg" />
+  <meta property="og:image" content="/profile.jpg" />
   <meta property="og:site_name" content="Tanupon Official" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@yume_ruuuu" />
@@ -45,8 +44,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=M+PLUS+Rounded+1c:wght@400;700;900&display=swap"
     rel="stylesheet">
-  <script type="module" crossorigin src="/tanupon/assets/index-CXdPuIC9.js"></script>
-  <link rel="stylesheet" crossorigin href="/tanupon/assets/index-G72P9WCT.css">
 </head>
 
 <body>
@@ -104,6 +101,7 @@
       <p>&copy; 2026 Tanupon. All rights reserved.</p>
     </footer>
   </div>
+  <script type="module" src="/src/main.js"></script>
 </body>
 
-</html>
+
