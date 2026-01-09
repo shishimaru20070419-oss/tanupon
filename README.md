@@ -1,1 +1,109 @@
-# tanupon
+[index.html](https://github.com/user-attachments/files/24523876/index.html)
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/jpeg" href="/tanupon/profile.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="たぬぽん (Tanupon) の公式ホームページ。YouTubeやX(Twitter)のリンク、プロフィール情報を掲載。ゲーム実況、配信活動などの最新情報をチェック！" />
+  <meta name="keywords" content="たぬぽん, Tanupon, Tanup0n_0, ゲーム実況, YouTuber, ストリーマー, Fortnite" />
+  <meta name="author" content="Tanupon" />
+
+  <!-- Open Graph (OG) for Social Media -->
+  <meta property="og:title" content="たぬぽん (Tanupon) - Official Homepage" />
+  <meta property="og:description" content="たぬぽんの公式サイトへようこそ！YouTube動画や最新の活動情報をまとめています。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tanupon-official.com/" /> <!-- Placeholder URL -->
+  <meta property="og:image" content="/tanupon/profile.jpg" />
+  <meta property="og:site_name" content="Tanupon Official" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@yume_ruuuu" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "たぬぽん (Tanupon)",
+        "alternateName": "Tanup0n_0",
+        "url": "https://tanupon-official.com/",
+        "image": "https://tanupon-official.com/profile.jpg",
+        "sameAs": [
+          "https://www.youtube.com/@Tanup0n_0",
+          "https://x.com/yume_ruuuu"
+        ],
+        "jobTitle": "Content Creator",
+        "description": "Creating content, streaming games, and having fun."
+      }
+    </script>
+
+  <title>たぬぽん (Tanupon) - Official Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=M+PLUS+Rounded+1c:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <script type="module" crossorigin src="/tanupon/assets/index-CXdPuIC9.js"></script>
+  <link rel="stylesheet" crossorigin href="/tanupon/assets/index-G72P9WCT.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="background-overlay"></div>
+
+    <main class="container">
+      <section class="hero">
+        <div class="glitch-wrapper">
+          <h1 class="glitch" data-text="TANUPON">TANUPON</h1>
+        </div>
+        <p class="subtitle">Content Creator & Gamer</p>
+      </section>
+
+      <section class="profile">
+        <div class="avatar-container">
+          <div class="avatar-ring"></div>
+          <!-- Profile Picture -->
+          <div class="avatar">
+            <img src="/tanupon/profile.jpg" alt="Tanupon Avatar" />
+          </div>
+        </div>
+        <p class="bio">
+          YouTubeで配信をしているたぬぽんと申します！<br><br>
+          よろしくお願いします！！
+        </p>
+      </section>
+
+      <section class="links">
+        <a href="https://www.youtube.com/@Tanup0n_0" target="_blank" class="social-card youtube">
+          <div class="icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="currentColor" class="icon">
+              <path
+                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+            </svg>
+          </div>
+          <span>YouTube</span>
+          <div class="arrow">→</div>
+        </a>
+
+        <a href="https://x.com/yume_ruuuu" target="_blank" class="social-card x-twitter">
+          <div class="icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="currentColor" class="icon">
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </div>
+          <span>@yume_ruuuu</span>
+          <div class="arrow">→</div>
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Tanupon. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+
+</html>
